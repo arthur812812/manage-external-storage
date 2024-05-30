@@ -25,7 +25,7 @@ import com.facebook.react.bridge.ReactApplicationContext;
 
 @ReactModule(name = ManageExternalStorageModule.NAME)
 public class ManageExternalStorageModule extends ReactContextBaseJavaModule implements ActivityEventListener  {
-  private static final int REQUEST_CODE = 228228;
+  private static final int REQUEST_CODE = 61234;
 
   public static final String NAME = "ManageExternalStorage";
   Promise promise;
